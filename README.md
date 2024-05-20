@@ -1,4 +1,9 @@
 # Purified-ZS-SBIR
+
 <div align=center>
-![2](https://github.com/WoodratTradeCo/Purified-ZS-SBIR/assets/38500652/caccbd59-549e-4917-a1f2-cd71c54dcdee)
+<img width="800" alt="1696749034041" src="https://github.com/WoodratTradeCo/Purified-ZS-SBIR/blob/main/4.png">
+</div>
+
+<div align=center>
+<img width="800" alt="1696749034040" src="https://github.com/WoodratTradeCo/Purified-ZS-SBIR/blob/main/2.png">
 </div>
