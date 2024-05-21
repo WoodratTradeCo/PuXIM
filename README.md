@@ -8,3 +8,9 @@
 <div align=center>
 <img width="800" alt="1696749034040" src="https://github.com/WoodratTradeCo/Purified-ZS-SBIR/blob/main/figures/1.png">
 </div>
+
+## Dataset
+The experiments are based on TU-Berlin, Sketchy, and QuickDraw datasets. We propose a high semantic ambiguity training set, the data can be achieved at https://pan.baidu.com/s/1wpqJ1Elu0Gi8iK3tIuH3Lg (sbir).
+<div align=center>
+<img width="800" alt="1696749034043" src="https://github.com/WoodratTradeCo/Purified-ZS-SBIR/blob/main/figures/3.png">
+</div>
