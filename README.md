@@ -2,7 +2,6 @@
 This repository is a purified zero-shot sketch-based image retrieval implementation for PuXIM (The paper is submitted to TCSVT 2024). 
 PuXIM is a distraction-agnostic framework for precise semantic space training on a high semantic ambiguity or low-quality dataset. Our method outperforms SOTA methods across several datasets and achieves high mAP on the proposed high semantic ambiguity training dataset.
 
-PuXIM
 ## Image Examples
 <div align=center>
 <img width="800" alt="1696749034041" src="https://github.com/WoodratTradeCo/Purified-ZS-SBIR/blob/main/figures/0.png">
