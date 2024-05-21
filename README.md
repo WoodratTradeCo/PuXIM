@@ -15,5 +15,24 @@ The experiments are based on TU-Berlin, Sketchy, and QuickDraw datasets. We prop
 <img width="400" alt="1696749034042" src="https://github.com/WoodratTradeCo/Purified-ZS-SBIR/blob/main/figures/2.png">
 </div>
 
-## Codes
-The paper is submitted to IEEE Transactions on Circuits and Systems for Video Technology (TCSVT). Codes will soon be released after the publication.
+## Usage (How to Train Our CMPS)
+The training log can be checked in experiment/log/CMPS_sota.log.
+
+    # 1. Choose your workspace and download our repository.
+    cd ${CUSTOMIZED_WORKSPACE}
+    git clone https://github.com/WoodratTradeCo/Purified-ZS-SBIR
+    # 2. Enter the directory.
+    cd Purified-ZS-SBIR
+    # 3. Clone our environment, and activate it.
+    conda-env create --name ${CUSTOMIZED_ENVIRONMENT_NAME}
+    conda activate ${CUSTOMIZED_ENVIRONMENT_NAME}
+    # 4. Download dataset.
+    # 5. Train our PuXIM. Please see details in our code annotations.
+    # Please set the input arguments based on your case.
+    # When the program starts running, a folder named 'results/${CUSTOMIZED_EXPERIMENT_NAME}' will be created automatically to save your log, checkpoint.
+    python train.py 
+    --exp ${CUSTOMIZED_EXPERIMENT_NAME}
+    --epoch ${CUSTOMIZED_EPOCH}
+    --batch_size ${CUSTOMIZED_SIZE}   
+    --num_workers ${CUSTOMIZED_NUMBER} 
+    --gpu ${CUSTOMIZED_GPU_NUMBER}
