@@ -15,8 +15,7 @@ The experiments are based on TU-Berlin, Sketchy, and QuickDraw datasets. We prop
 <img width="400" alt="1696749034042" src="https://github.com/WoodratTradeCo/Purified-ZS-SBIR/blob/main/figures/2.png">
 </div>
 
-## Usage (How to Train Our CMPS)
-The training log can be checked in experiment/log/CMPS_sota.log.
+## Usage (How to Train Our PuXIM)
 
     # 1. Choose your workspace and download our repository.
     cd ${CUSTOMIZED_WORKSPACE}
