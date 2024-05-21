@@ -14,3 +14,6 @@ The experiments are based on TU-Berlin, Sketchy, and QuickDraw datasets. We prop
 <div align=center>
 <img width="400" alt="1696749034042" src="https://github.com/WoodratTradeCo/Purified-ZS-SBIR/blob/main/figures/2.png">
 </div>
+
+## Codes
+The paper is submitted to IEEE Transactions on Circuits and Systems for Video Technology (TCSVT). Codes will soon be released after the publication.
