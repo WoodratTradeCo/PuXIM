@@ -51,7 +51,10 @@ class Model(nn.Module):
 
             sk_feat, _, _ = self.vit(sk)
             im_feat, _, _ = self.vit(im)
-            im_feat_msk = im_feat[:, 1:] * mask.unsqueeze(-1)
+            if opts.match == "mask":
+                im_feat_msk = im_feat[:, 1:] * mask.unsqueeze(-1)
+            else:
+                im_feat_msk = im_feat
             feat_map = torch.cat((sk_feat, im_feat), 0)
             loss_rec = self.mse(feat_map[feat_map.size(0)//2:, 1:], im_feat_msk)
             feat = feat_map[:, 0]
