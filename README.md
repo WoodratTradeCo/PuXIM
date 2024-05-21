@@ -1,7 +1,15 @@
 # Purified-ZS-SBIR
+This repository is a purified zero-shot sketch-based image retrieval implementation for PuXIM (The paper is submitted to TCSVT 2024). 
+PuXIM is a distraction-agnostic framework for precise semantic space training on a high semantic ambiguity or low-quality dataset. Our method outperforms SOTA methods across several datasets and achieves high mAP on the proposed high semantic ambiguity training dataset.
+
+PuXIM
 ## Image Examples
 <div align=center>
 <img width="800" alt="1696749034041" src="https://github.com/WoodratTradeCo/Purified-ZS-SBIR/blob/main/figures/0.png">
+</div>
+
+<div align=center>
+<img width="800" alt="1696749034043" src="https://github.com/WoodratTradeCo/Purified-ZS-SBIR/blob/main/figures/3.png">
 </div>
 
 ## Model Architecture
@@ -29,7 +37,7 @@ The experiments are based on TU-Berlin, Sketchy, and QuickDraw datasets. We prop
     # 5. Train our PuXIM. Please see details in our code annotations.
     # Please set the input arguments based on your case.
     # When the program starts running, a folder named 'results/${CUSTOMIZED_EXPERIMENT_NAME}' will be created automatically to save your log, checkpoint.
-    python train.py 
+    python train.py
     --exp ${CUSTOMIZED_EXPERIMENT_NAME}
     --epoch ${CUSTOMIZED_EPOCH}
     --batch_size ${CUSTOMIZED_SIZE}   
