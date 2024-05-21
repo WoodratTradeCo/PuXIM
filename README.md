@@ -42,3 +42,6 @@ The experiments are based on TU-Berlin, Sketchy, and QuickDraw datasets. We prop
     --batch_size ${CUSTOMIZED_SIZE}   
     --num_workers ${CUSTOMIZED_NUMBER} 
     --gpu ${CUSTOMIZED_GPU_NUMBER}
+
+## License
+This project is released under the [MIT License](./LICENSE).
